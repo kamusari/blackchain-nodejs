@@ -10,8 +10,8 @@ class Block {
     return `
       Block = 
       TimeStamp = ${this.timeStamp}
-      LastHash = ${this.lastHash.subString(0, 10)}
-      Hash = ${this.hash.subString(0, 10)}
+      LastHash = ${this.lastHash.substring(0, 10)}
+      Hash = ${this.hash.substring(0, 10)}
       Data = ${this.data}
     `;
   }
