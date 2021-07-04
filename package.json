@@ -1,0 +1,8 @@
+{
+  "name": "blockchain-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kamusari/blackchain-nodejs.git",
+  "author": "Kamusari <lucker.de.souza@gmail.com>",
+  "license": "MIT"
+}
