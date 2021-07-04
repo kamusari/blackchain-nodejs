@@ -20,6 +20,13 @@ class Block {
     return new this('Genesis time', '---------', '8as7d54c8df', []);
   };
 
+  static mineBlock(lastBlock, data){
+    const timestamp = Date.now();
+    const lasthash = lastBlock.hash;
+    const hast = 'criar uma função para o hash SHA-256';
+
+    return new this(timestamp, lasthash, hast, data);
+  }
 
 }
 
