@@ -1,4 +1,4 @@
-# blackchain-nodejs
+# blockchain-nodejs
 
 yarn test
 
